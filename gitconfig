@@ -59,3 +59,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = theohirth67@gmail.com
+	name = theohirth
