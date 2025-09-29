@@ -1,0 +1,22 @@
+[1mdiff --git a/zprofile b/zprofile[m
+[1mindex dcaefd2..4a1508f 100644[m
+[1m--- a/zprofile[m
+[1m+++ b/zprofile[m
+[36m@@ -2,4 +2,4 @@[m
+ export PYENV_ROOT="$HOME/.pyenv"[m
+ export PATH="$PYENV_ROOT/bin:$PATH"[m
+ eval "$(/opt/homebrew/bin/brew shellenv 2> /dev/null)"[m
+[31m-type -a pyenv > /dev/null && eval "$(pyenv init --path)"[m
+[32m+[m[32mtype -a pyenv > /dev/null && eval "$(pyenv init --path)"[m
+\ No newline at end of file[m
+[1mdiff --git a/zshrc b/zshrc[m
+[1mindex 0cebe11..a15720d 100644[m
+[1m--- a/zshrc[m
+[1m+++ b/zshrc[m
+[36m@@ -69,4 +69,4 @@[m [mexport BUNDLER_EDITOR=code[m
+ export EDITOR=code[m
+ [m
+ # Set ipdb as the default Python debugger[m
+[31m-export PYTHONBREAKPOINT=ipdb.set_trace[m
+[32m+[m[32mexport PYTHONBREAKPOINT=ipdb.set_trace[m
+\ No newline at end of file[m
